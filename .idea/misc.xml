@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Guilherme/AndroidStudioProjects/MyMoney/app/src/main/res/drawable/background.xml" value="0.39282051282051283" />
+        <entry key="..\:/Users/Guilherme/AndroidStudioProjects/MyMoney/app/src/main/res/drawable/dark_mode.xml" value="0.23489583333333333" />
+        <entry key="..\:/Users/Guilherme/AndroidStudioProjects/MyMoney/app/src/main/res/drawable/ic_app_right_icon.xml" value="0.3824074074074074" />
+        <entry key="..\:/Users/Guilherme/AndroidStudioProjects/MyMoney/app/src/main/res/drawable/ic_background.xml" value="0.39282051282051283" />
+        <entry key="..\:/Users/Guilherme/AndroidStudioProjects/MyMoney/app/src/main/res/drawable/ic_baseline_account_balance_24.xml" value="0.3824074074074074" />
+        <entry key="..\:/Users/Guilherme/AndroidStudioProjects/MyMoney/app/src/main/res/drawable/ic_empty_statement_state.xml" value="0.39444444444444443" />
+        <entry key="..\:/Users/Guilherme/AndroidStudioProjects/MyMoney/app/src/main/res/drawable/ic_name_app.xml" value="0.23541666666666666" />
+        <entry key="..\:/Users/Guilherme/AndroidStudioProjects/MyMoney/app/src/main/res/drawable/ic_splashscreen.xml" value="0.3824074074074074" />
+        <entry key="..\:/Users/Guilherme/AndroidStudioProjects/MyMoney/app/src/main/res/drawable/text_input_create_style.xml" value="0.403125" />
+        <entry key="..\:/Users/Guilherme/AndroidStudioProjects/MyMoney/app/src/main/res/layout/activity_bank_list.xml" value="0.33" />
+        <entry key="..\:/Users/Guilherme/AndroidStudioProjects/MyMoney/app/src/main/res/layout/activity_create_economy.xml" value="0.33" />
+        <entry key="..\:/Users/Guilherme/AndroidStudioProjects/MyMoney/app/src/main/res/layout/activity_create_statement.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/Guilherme/AndroidStudioProjects/MyMoney/app/src/main/res/layout/activity_economy.xml" value="0.33" />
+        <entry key="..\:/Users/Guilherme/AndroidStudioProjects/MyMoney/app/src/main/res/layout/activity_main.xml" value="0.37726449275362317" />
+        <entry key="..\:/Users/Guilherme/AndroidStudioProjects/MyMoney/app/src/main/res/layout/activity_register_user.xml" value="0.33" />
+        <entry key="..\:/Users/Guilherme/AndroidStudioProjects/MyMoney/app/src/main/res/layout/activity_splash_screen.xml" value="0.25" />
+        <entry key="..\:/Users/Guilherme/AndroidStudioProjects/MyMoney/app/src/main/res/layout/cardview_economy.xml" value="0.33" />
+        <entry key="..\:/Users/Guilherme/AndroidStudioProjects/MyMoney/app/src/main/res/layout/cardview_statement.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/Guilherme/AndroidStudioProjects/MyMoney/app/src/main/res/layout/empty_state.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/Guilherme/AndroidStudioProjects/MyMoney/app/src/main/res/layout/empty_state_economy.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/Guilherme/AndroidStudioProjects/MyMoney/app/src/main/res/layout/empty_state_statement.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/Guilherme/AndroidStudioProjects/MyMoney/app/src/main/res/layout/item_economia.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/Guilherme/AndroidStudioProjects/MyMoney/app/src/main/res/menu/menu_item.xml" value="0.35185185185185186" />
+        <entry key="..\:/Users/Guilherme/AndroidStudioProjects/MyMoney/app/src/main/res/menu/menu_item_economy.xml" value="0.38697916666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.38697916666666665" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

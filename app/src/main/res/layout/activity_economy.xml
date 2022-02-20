@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_background"
+    android:padding="16dp"
+    android:screenOrientation="portrait"
+    tools:context=".presenter.EconomyView">
+
+    <ImageButton
+        android:id="@+id/btn_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="?attr/actionBarItemBackground"
+        android:src="@drawable/ic_baseline_arrow_back_ios_24"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="@color/primary_color" />
+
+    <TextView
+        android:id="@+id/txt_name_economy"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Nome Economia"
+        android:textColor="@color/primary_color"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="@id/btn_close"
+        app:layout_constraintLeft_toRightOf="@id/btn_close"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txt_current_money"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="R$ 3000.00"
+        android:textColor="@color/primary_color"
+        android:textSize="32sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txt_name_economy" />
+
+    <TextView
+        android:id="@+id/txt_goals"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Meta: R$ 10000.00"
+        android:textColor="#805E5E5E"
+        android:textSize="16sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txt_current_money" />
+
+    <TextView
+        android:id="@+id/label_saidas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="↓ Saidas ↓"
+        android:textColor="#720000"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@id/txt_current_money"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/txt_current_money"
+        app:layout_constraintTop_toTopOf="@id/txt_current_money" />
+
+    <TextView
+        android:id="@+id/txt_saidas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="R$ 150.00"
+        android:textColor="#720000"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@id/txt_current_money"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/txt_current_money"
+        app:layout_constraintTop_toBottomOf="@id/label_saidas" />
+
+    <TextView
+        android:id="@+id/label_entradas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="↑ Entradas ↑"
+        android:textColor="@color/primary_color"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@id/txt_current_money"
+        app:layout_constraintLeft_toRightOf="@+id/txt_current_money"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/txt_current_money" />
+
+    <TextView
+        android:id="@+id/txt_entradas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="R$ 150.00"
+        android:textColor="@color/primary_color"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@id/txt_current_money"
+        app:layout_constraintLeft_toRightOf="@id/txt_current_money"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/label_entradas" />
+
+    <TextView
+        android:id="@+id/label_extrato"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text=">> Extratos"
+        android:textColor="@color/primary_color"
+        android:textSize="18sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_goals" />
+
+    <include
+        android:id="@+id/ly_empty_state"
+        layout="@layout/empty_state_statement"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/label_extrato" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcv_statements"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:visibility="gone"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/label_extrato"
+        tools:listitem="@layout/cardview_statement" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_add_statement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:backgroundTint="#7AAC76"
+        android:src="@drawable/ic_baseline_attach_money_24"
+        app:backgroundTint="@color/secondary_color"
+        app:borderWidth="2dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:tint="@color/primary_color" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
