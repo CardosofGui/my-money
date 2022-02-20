@@ -19,7 +19,7 @@ Em atualização 😍
 ---
 
 ## Descrição 📌 <a name="description"></a>
-My Money é um aplicativo de gerenciamento de economias, no qual é possivel criar economias e adicionar extratos (entradas/saidas) em dinheiro, sendo assim um gerenciador simplificado e útil de seu dinheiro para te ajudar a conquistar seus futuros objetivos.
+My Money é um aplicativo de gerenciamento de economias, no qual é possivel criar economias e adicionar extratos (entradas/saidas) de dinheiro, sendo assim um gerenciador simplificado e útil de seu dinheiro para te ajudar a conquistar seus futuros objetivos.
 
 --- 
 
