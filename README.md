@@ -33,7 +33,7 @@ My Money é um aplicativo de gerenciamento de economias, no qual é possivel cri
 ---
 
 ## O que será necessario para utilizar este APP? 📝 <a name="necessary">
-☐ Basta apenas baixar e instalar a [Apk]() do app que após isso já será possível o uso sem a necessidade de um cadastro online.
+☐ Basta apenas baixar e instalar a [APK]("https://github.com/CardosofGui/my-money/releases/download/MyMoney/my-money-v1.apk") do app que após isso já será possível o uso sem a necessidade de um cadastro online.
 
 ---
     
